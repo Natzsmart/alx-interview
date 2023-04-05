@@ -8,7 +8,8 @@ def minOperations(n):
     n (int): The desired number of H characters in the file.
     
     Returns:
-    int: The minimum number of operations needed to achieve n H characters in the file. If n is impossible to achieve, returns 0.
+    int: The minimum number of operations needed to achieve n H characters in the file. 
+    If n is impossible to achieve, returns 0.
     """
     operations = 0
 
