@@ -22,5 +22,4 @@ def minOperations(n):
             n //= i
             if n < i:
                 break
-
     return operations
