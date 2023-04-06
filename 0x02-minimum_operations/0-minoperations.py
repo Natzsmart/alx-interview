@@ -7,17 +7,15 @@ copying all characters and pasting them.
 """
 
 def minOperations(n):
-    
-    operations = 0
+    k = 0
 
     if n <= 1:
-        return operations
+        return k
 
     for i in range(2, n + 1):
-        while 0 == n % i:
-            operations += i
-            n //= i
+        while (0 == n % i):
+            k = k + i
+            n = n / i
             if n < i:
                 break
-
-        return operations
+    return k
