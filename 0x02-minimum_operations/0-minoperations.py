@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""
-Calculates the minimum number of operations required to 
-create a specified number of characters.
-Assumes that there are only two operations available: 
-copying all characters and pasting them.
-"""
+'''
+calculates the minimum number of operations required
+to create a specific number of characters.
+Assumes that there are only two operations available:
+copying all characters and pasting them
+'''
+
 
 def minOperations(n):
     k = 0
