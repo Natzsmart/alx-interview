@@ -9,14 +9,11 @@ copying all characters and pasting them
 
 def minOperations(n):
     k = 0
+    m = 2
 
-    if n <= 1:
-        return k
-
-    for i in range(2, n + 1):
-        while (0 == n % i):
-            k = k + i
-            n = n / i
-            if n < i:
-                break
+    while n > 1:
+        while n % m == 0:
+            k += m
+            n /= m
+        m += 1
     return k
