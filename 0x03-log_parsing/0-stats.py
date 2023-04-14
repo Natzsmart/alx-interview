@@ -10,7 +10,7 @@ size = 0
 
 
 def print_info():
-    """print_info method print needed info
+    """print_info method print info
     Args:
         codes (dict): code status
         size (int): size of files
