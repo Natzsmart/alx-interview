@@ -32,7 +32,6 @@ if __name__ == '__main__':
                     nums[info[-2]] += 1
             except:
                 pass
-
             if not i % 10:
                 print_info()
     except KeyboardInterrupt:
